@@ -15,9 +15,16 @@
 # print(lista)
 
 # Criar a lista com quantidade de valores definida pelo usuario
-quant = int(input("Informe a quant de numeros da lista: "))
-lista_numeros = []
-for i in range(quant):
-    numeros = int(input("Informe: "))
-    lista_numeros.append(numeros) # Salvar os valores na lista
-print(lista_numeros)
+# quant = int(input("Informe a quant de numeros da lista: "))
+# lista_numeros = []
+# for i in range(quant):
+    # numeros = int(input("Informe: "))
+    # lista_numeros.append(numeros) # Salvar os valores na lista
+# print(lista_numeros)
+
+lista = [10,20,30,40]
+print(lista)
+del lista[2]
+print(lista)
+
+print(len(lista))
