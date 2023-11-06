@@ -3,7 +3,7 @@ lista = []
 a = 0
 for i in range(q):
     n = int(input("Informe: "))
-    lista.append(n*2)
+    lista.append(n)
     a = a + n
 print(lista)
 print(f"Media = {(a/q):.1f}")
