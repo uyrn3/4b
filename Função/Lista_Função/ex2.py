@@ -1,2 +1,3 @@
 def nome(x):
-    nome = (x)
+    nome = input("")
+
